@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="budget">
+            <div class="budget__title">
+                Available budget in <span class="budget__title--month">%month%</span>:
+            </div>
+            <div class="budget__value">+ 2,354.65</div>
+            
+            
+            <div class="inc">
+                <div class="budget__income clearfix">
+                    <div class="budget__income--text">Income</div>
+                    <div class="right">
+                        <div class="budget__income--value">+ 4,367.90</div>
+                        <div class="budget__income--percentage">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <div class="exp">
+                <div class="budget__expenses--clearfix">
+                    <div class="budget__expenses--text">Expenses</div>
+                    <div class="right clearfix">
+                        <div class="budget__expenses--value">- 2,345.89</div>
+                        <div class="budget__expenses--percentage">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="add">
+            <div class="add__container">
+                <select class="add__type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+                <input type="text" class="add__description" placeholder="Add description">
+                <input type="number" class="add__value" placeholder="Value">
+                <button class="add__button">
+                    <img src="images/good.png" alt="good" width="25px">
+                </button>
+            </div>
+        </div>
+
+        <div class="container clearfix">
+            <div class="income">
+                <h2 class="income__title">INCOME</h2>
+
+                <div class="income__list"></div>
+            </div>
+            <div class="expense">
+                <h2 class="expense__title">EXPENSES</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

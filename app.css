@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.budget__title {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(230, 21, 21);
+}
+
+.top {
+    background-image: url(images/building.jpg);
+    background-size: cover;
+    height:250px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.add__value {
+    width: 70px;
+    height: 32px;
+}
+
+.add__description {
+    width: 500px;
+    height: 33px;
+}
+
+.add__button {
+    height: 32px;
+    position: absolute;
+    top: 250px;
+    width: 30px;
+    border: none;
+    background-color: white;
+}
+
+.budget__value {
+    position: absolute;
+    right: 44%;
+    top: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.budget__income--text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 130px;
+    right: 35%;
+    background-color: rgb(20, 134, 18);
+    padding: 4px;
+    width: 355px;
+    text-align: start;
+    height: 40px;
+}
+
+.budget__income--value {
+    position: absolute;
+    right: 27%;
+    top:130px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(20, 134, 18);
+    padding-right: 24px;
+    padding-top: 6px;
+    height: 40px;
+    text-align: start;
+}
+
+.budget__expenses--text {
+    position: absolute;
+    top: 200px;
+    right: 37%;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(230, 21, 21);
+    padding: 4px;
+    width: 326px;
+    height: 40px;
+    padding-top:4px;
+    text-align: start;
+}
+
+.budget__expenses--value {
+    position: absolute;
+    top: 200px;
+    right: 30%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(230, 21, 21);
+    height: 40px;
+    padding-top: 6px;
+    text-align: end;
+}
+
+.budget__expenses--percentage {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 27%;
+    background-color: rgb(230, 21, 21);
+    width: 41px;
+    height: 40px;
+    text-align: start;
+    padding-top: 12px;
+    padding-left: 4px;
+}
+
+.clearfix ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.income__title {
+    font-size: 30px;
+    color: rgb(20, 134, 18);
+    position: absolute;
+    top: 350px;
+    left: 20%;
+}
+
+.expense__title {
+    font-size: 30px;
+    color: rgb(230, 21, 21);
+    position: absolute;
+    top: 350px;
+    right: 30%;
+}
